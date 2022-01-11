@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-size: 100%;
+  background: linear-gradient(
+    93.09deg,
+    rgba(48, 0, 60, 0.7) 0.27%,
+    rgba(255, 50, 66, 0.7) 95.15%
+  );
+}
+.cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-bottom: 3px solid #30003c;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo-img {
+  height: 45px;
+}
+.logo-texto {
+  color: #30003c;
+  font-family: "Open Sans", sans-serif;
+}
+.cabecalho-menu-item:hover {
+  border-bottom: 2px solid #ff3242;
+}
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+.cabecalho-menu-item {
+  font-family: "Roboto", sans-serif;
+  color: #30003c;
+  font-weight: 400;
+  font-size: 18px;
+}
+.conteudo-primeiro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.conteudo {
+  border-top: 0.4px solid #fff2e7;
+  margin-bottom: 48px;
+}
