@@ -147,6 +147,30 @@ body {
   height: 500px;
   margin: 50px;
 }
+.conteudo-segundo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+}
+.conteudo-segundo-escrita {
+  width: 500px;
+  text-align: center;
+}
+.conteudo-segundo-escrita-titulo {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 55px;
+}
+.conteudo-segundo-escrita-p {
+  font-family: "Nunito", sans-serif;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif; */
