@@ -170,6 +170,23 @@ body {
   font-size: 18px;
   margin-bottom: 20px;
 }
+.conteudo-terceiro {
+  padding: 30px;
+  margin: 80px;
+  text-align: center;
+}
+.conteudo-terceiro-escrita-p {
+  font-family: "Nunito", sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 55px;
+}
+.conteudo-terceiro-escrita-p-destaque {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 45px;
+  margin-bottom: 55px;
+}
 
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Open Sans', sans-serif;
